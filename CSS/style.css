@@ -1,0 +1,329 @@
+
+/* Universal Start */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.secondary{
+    color: orange;
+}
+
+
+img-responsive{
+    width: 100%;
+}
+
+
+button{
+    color: #fff;
+    padding: 2.5%;
+    background-image: linear-gradient(to right, orange ,rgb(243, 70, 70));
+    border-radius: 25px;
+    cursor: pointer;
+    border: transparent;
+    
+}
+
+ button:hover{
+    background-image: linear-gradient(to left, orange ,rgb(243, 70, 70));
+}
+
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+/* Universal End*/
+/* <!-- -- 
+----
+------
+--------
+----------- --> */
+/* <!-- Nav Section Start --> */
+
+ 
+
+.topNav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    height: 10vh;
+    
+    
+}
+
+.navBar a{
+    text-decoration: none;
+    
+}
+
+.topNav .logo a{
+    color: #111;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.topNav .logo a span{
+    color: orange;
+}
+
+.topNav .navItems{
+    margin-right: 1%;
+}
+
+.topNav .navItems a{
+    margin-right: 1em;
+    color: #111;
+}
+
+.topNav .navItems a:hover{
+    color: orange;
+}
+
+
+/* <!-- Nav Section End --> */
+ /* <!-- -- 
+----
+------
+--------
+----------- -- !> */
+/* Welcome Section Start */
+
+
+
+.welcomeMain{
+    display: flex;
+    /* border: 2px solid; */
+    margin: 0 5%;
+}
+
+.welcomeMain .welcomeLeft{
+    padding-top: 10%; 
+    width: 50%;
+} 
+
+.welcomeMain .welcomeRight{
+    width: 50%;
+    
+    
+}
+
+.welcomeMain .welcomeRight img{
+     max-width: 100%;
+    max-height: 80vh;
+} 
+
+.welcomeLeft h1{
+    font-size: 2em;
+    padding-bottom: 3%;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.welcomeLeft h1 span{
+    color: orange;
+    
+}
+
+.welcomeLeft p{
+    color: gray;
+    padding-bottom: 7%;
+}
+
+
+
+/* Welcome Section End */
+ /* <!-- -- 
+----
+------
+--------
+----------- -- !> */
+/* About Section Start */
+
+section.about{
+    background-image: url(/img/shapes/7.png);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* width: 100vw; */
+    /* border: 2px solid; */
+    background-size: cover;
+    
+}
+
+.aboutMain{
+    display: flex;
+    /* border: 2px solid; */
+    margin: 0 5%;
+    margin-top: 10%;
+    
+
+    
+}
+
+.aboutMain .aboutLeft{
+    width: 50%;
+    margin-top: 10%;
+}
+
+.aboutMain .aboutRight{
+    width: 50%;
+    margin-top: 10%;
+}
+
+.aboutMain .aboutRight h1{
+    padding-bottom: 4%;
+}
+.aboutMain .aboutRight p{
+    padding-bottom: 10%;
+}
+
+.aboutMain .aboutLeft img {
+    max-width: 100%;
+    max-height: 80vh;
+    /* width: 100px; */
+}
+
+
+
+
+
+
+/* About Section End */
+ /* <!-- -- 
+----
+------
+--------
+----------- -- !> */
+/* Recipies Section Start */
+
+.recipies{
+    margin-top: 5%;
+}
+
+.recipieControl{
+    display: flex;
+}
+
+.recBox{
+    /* border: 2px solid; */
+    padding: 5%;
+    margin: 5%;
+    box-shadow:5px 10px 10px 5px rgba(0, 0, 0, 0.1) ;
+    border-radius: 4%;
+    
+}
+
+.recBox img{
+    max-width: 100%;
+    margin-bottom: 20%;
+    
+}
+
+
+
+
+
+
+
+
+/* Recipies Section End */
+ /* <!-- -- 
+----
+------
+--------
+----------- -- !> */
+/* Status Bar Start */
+
+.statusBar{
+    /* border: 2px solid; */
+    margin: 4% 2%;
+    padding: 3%;
+    box-shadow:10px 10px 10px 10px  rgba(0, 0, 0, 0.2) ;
+    border-radius: 20px;
+}
+
+.statusMain{
+    display: flex;
+    justify-content: space-between;
+}
+/* Status Bar End */
+ /* <!-- -- 
+----
+------
+--------
+----------- -- !> */
+/* Food Setcion Start */
+
+
+
+.foods{
+    margin-top: 5%;
+}
+
+.foodArea{
+    display: flex;
+    
+}
+
+
+.foodBox{
+    /* border: 2px solid; */
+    padding: 5%;
+    margin: 5%;
+    box-shadow:5px 10px 10px 5px rgba(0, 0, 0, 0.1) ;
+    border-radius: 4%;
+    border: 2px solid;
+
+    
+    
+}
+
+.foodBox img{
+    max-width: 100%;
+    
+    
+}
+
+.imgDesc h2 {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 900;
+    padding-bottom: 2%;
+}
+
+
+
+/* Food Setcion End */
+/* footer Start */
+section.footer{
+    background-color: #111;
+    margin-top: 5%;
+
+}
+.footer h1 span{
+    color: orange;
+}
+.footer h1{
+    color: gray;
+    padding-top: 3%;
+}
+
+.footer h3{
+    color: #fff;
+    padding: 2% 0;
+}
+/* footer end */
