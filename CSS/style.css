@@ -65,7 +65,7 @@ button a{
  .navBar{
     position: sticky;
     top: 0;
-    background-color: honeydew;
+    background-color: rgba(221, 205, 150, 0.5);
     padding-bottom: 1%;
  }
 
@@ -81,6 +81,8 @@ button a{
 
 .navBar a{
     text-decoration: none;
+    font-weight: 800;
+    
     
 }
 
