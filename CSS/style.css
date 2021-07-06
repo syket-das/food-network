@@ -62,14 +62,20 @@ button a{
 ----------- --> */
 /* <!-- Nav Section Start --> */
 
- 
+ .navBar{
+    position: sticky;
+    top: 0;
+    background-color: honeydew;
+    padding-bottom: 1%;
+ }
 
 .topNav{
     display: flex;
     justify-content: space-between;
     padding: 2%;
     height: 10vh;
-    
+
+  
     
 }
 
