@@ -155,7 +155,7 @@ button a{
 /* About Section Start */
 
 section.about{
-    background-image: url('https://github.com/syket112/food-network/blob/main/img/7.png');
+    background-image: url('../img/7.png');
     background-repeat: no-repeat;
     /* background-position: center; */
     /* width: 100vw; */
